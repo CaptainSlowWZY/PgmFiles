@@ -1,4 +1,4 @@
 # PgmFiles
-Configuration file of some Programs
+Configuration file of some softwares
 
 Thanks to Github.
