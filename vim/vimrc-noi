@@ -1,0 +1,16 @@
+" cin - 自动补全  nu - 显示行号  ts - tab大小  so - 代码滚动
+set cin nu rnu ts=4 sw=4 sts=4 et noswapfile nobackup so=100
+
+set noexpandtab
+
+" 高亮当前行
+set cursorline
+hi CursorLine   cterm=NONE ctermbg=238 ctermfg=none
+
+" 以上配置必不可少，下面的可以不要
+set backspace=eol,start,indent
+syntax on   " 语法高亮
+set incsearch hlsearch
+set ignorcase
+filetype plugin indent on  " 显示文件类型
+set autochdir " tag
