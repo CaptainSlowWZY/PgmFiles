@@ -20,7 +20,7 @@ set cursorline
 hi CursorLine   cterm=NONE ctermbg=238 ctermfg=none
 :inoremap ( ()<ESC>i
 :inoremap ) <c-r>=ClosePair(')')<CR>
-:inoremap { {}<ESC>i<c-lf><ESC>k<s-$>o
+:inoremap { {}<ESC>i<c-lf><ESC>k<s-$>a
 :inoremap } <c-r>=ClosePair('}')<CR>
 :inoremap [ []<ESC>i
 :inoremap ] <c-r>=ClosePair(']')<CR>
