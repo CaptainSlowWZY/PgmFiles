@@ -1,5 +1,6 @@
-" cin - 自动补全  nu - 显示行号  ts - tab大小  so - 代码滚动
-set cin nu rnu ts=4 sw=4 sts=4 et noswapfile nobackup so=100
+" cin - 自动补全, nu - 显示行号, ts - TabStop, so - 代码滚动
+" sw - ShiftWidth, sts - SoftTabStop
+set cin nu rnu ts=4 sw=4 sts=4 noswapfile nobackup so=100
 
 set noexpandtab
 
