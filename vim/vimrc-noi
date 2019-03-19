@@ -9,7 +9,7 @@ set cursorline
 hi CursorLine   cterm=NONE ctermbg=238 ctermfg=none
 
 " 以上配置必不可少，下面的可以不要
-set backspace=eol,start,indent
+set backspace=eol,start,indent " 跨行删除
 syntax on   " 语法高亮
 set incsearch hlsearch
 set ignorcase
